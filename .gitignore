@@ -1,41 +1,14 @@
-# Local environment
-.env
+# Python virtual environments
 .venv/
-env/
-ENV/
-env.bak/
-venv.bak/
-
-# Python cache
+.env/
 __pycache__/
-*.py[cod]
-*$py.class
 
-# Azure Function settings
-local.settings.json
-secrets/
-.secrets/
-
-# VS Code
+# VSCode settings
 .vscode/
 
-# Logs and test outputs
+# Azure secrets
+local.settings.json
+
+# OS and temp files
 *.log
-TestResults/
-coverage/
-*.coverage
-
-# Node dependencies
-node_modules/
-dist/
-
-# Azurite emulator data
-__blobstorage__
-__queuestorage__
-__azurite_db*__.json
-
-# Build
-bin/
-obj/
-*.dll
-*.exe
+*.DS_Store
