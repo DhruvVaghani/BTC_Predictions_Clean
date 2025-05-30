@@ -1,14 +1,23 @@
 # Python virtual environments
 .venv/
 .env/
-__pycache__/
+env/
+ENV/
+env.bak/
+venv.bak/
 
 # VSCode settings
 .vscode/
 
-# Azure secrets
-local.settings.json
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# OS and temp files
+# Azure Function secrets
+local.settings.json
+**/local.settings.json
+
+# Logs and OS files
 *.log
-*.DS_Store
+.DS_Store
