@@ -28,7 +28,7 @@ This project builds a **real-time pipeline** that:
 ---
 
 ## 📈 Real-Time Pipeline Architecture
-![Architecture](./architecture.png)
+![Architecture](./architecture-fotor-2025053123419.png)
 Architecture Flow Explanation
 This pipeline represents a real-time, cloud-based architecture for predicting Bitcoin (BTC) prices and visualizing them live using Power BI. Here's how the data flows:
 
