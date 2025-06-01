@@ -65,7 +65,7 @@ Predictions are written back to the Azure SQL database.
 
 📊 6. Power BI (Visualization)
 Power BI is directly connected to the Azure SQL database using DirectQuery.
-
+![Architecture](./Dashboard.png)
 It auto-refreshes every 5 minutes, displaying:
 
 Real-time BTC close price.
